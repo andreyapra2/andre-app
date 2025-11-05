@@ -1,0 +1,33 @@
+[project]
+name = "andre-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "authlib>=1.6.5",
+    "beautifulsoup4>=4.13.4",
+    "boto3>=1.38.41",
+    "ccxt>=4.5.13",
+    "crowdstrike-falconpy>=1.5.3",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.13",
+    "flask>=3.1.1",
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.4.10",
+    "ldap3>=2.9.1",
+    "matplotlib>=3.10.6",
+    "pandas>=2.3.0",
+    "psycopg2-binary>=2.9.10",
+    "pyarrow>=20.0.0",
+    "pymongo>=4.15.3",
+    "streamlit>=1.46.0",
+    "ta-lib>=0.6.8",
+    "tables>=3.10.2",
+    "tensorflow>=2.19.0",
+    "uvicorn>=0.38.0",
+    "voyageai>=0.3.5",
+    "yfinance>=0.2.66",
+    "yt-dlp[curl-cffi,default]>=2025.6.30",
+]

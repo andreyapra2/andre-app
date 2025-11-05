@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.container {
+    width: 95%; /* Menggunakan persentase */
+    max-width: 960px; /* Batas lebar maksimal */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Menambahkan box-sizing */
+}
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+section:last-child {
+    border-bottom: none;
+}
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+.service-item {
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Media Query untuk layar yang lebih kecil dari 600px */
+@media (max-width: 600px) {
+    .container {
+        width: 95%; /* Bisa disesuaikan lagi jika perlu */
+        padding: 15px; /* Mengurangi padding pada layar kecil */
+    }
+    h1 {
+        font-size: 1.5rem; /* Mengurangi ukuran font header */
+    }
+    h2 {
+        font-size: 1.2rem; /* Mengurangi ukuran font sub-header */
+    }
+}
