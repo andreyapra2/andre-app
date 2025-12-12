@@ -9,10 +9,11 @@
     pkgs.bun
     pkgs.uv
     pkgs.awscli2
-    pkgs.nodejs_22
-    pkgs.python313
+    pkgs.nodejs_24
+    pkgs.python314
     pkgs.php84
     pkgs.php84Packages.composer
+    pkgs.laravel
     # pkgs.go
     # pkgs.python311
     # pkgs.python311Packages.pip
